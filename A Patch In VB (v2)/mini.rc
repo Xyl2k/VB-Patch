@@ -1,0 +1,4 @@
+// Use your favorite resource script compiler
+// or the one included in Visual Studio:
+//   rc mini.rc
+1 RCDATA "mini.xm"

@@ -1,0 +1,37 @@
+http://ufmod.sourceforge.net/
+1) download the package
+2) go to the visual basic folder
+3) and check the readMe folder
+
+
+en.txt:
+WARNING!
+
+This example supports  ONLY  Microsoft Visual Basic 6. For a  managed .NET port
+check the C# folder.
+
+So, you want to use uFMOD in your VB6 application?  You'll need to complete the
+following steps:
+
+1. You need to include uF_vb.bas (WINMM version) or  DSuF_vb.bas (DirectX) into
+   your project. Do not rename this file. Do not modify it's contents. Place it
+   into the  main  directory  of  your project. Place ufmod.lib (WINMM version)
+   or dsufmod.lib (DirectX) into the same location as uF_vb.bas or DSuF_vb.bas.
+   Copy the DirectSound type library dsound.tlb to the same location when using
+   the DirectX version.
+
+2. Target type should be native EXE. No p-code!
+
+3. Find the directory where VB6.EXE is installed (i.e. \Program Files\Microsoft
+   Visual Studio\VB98\). Rename LINK.EXE to LNK.EXE. Copy the included link.exe
+   file into that directory. Full source code is included.  The modified linker
+   is able to build any application:  with or without  uFMOD.  Though,  you may
+   restore the original linker from LNK.EXE whenever you want to.
+
+uFMOD is able to play  files, resources and static memory arrays.  No practical
+way exists of using  memory arrays in VB6.  Actually there is an example in the
+official  uFMOD forum, but it uses too much  overhead memory and is more like a
+proof of concept  than a real  example. So, if you  want to embedd  an XM track
+directly in the EXE, you'd better use resources like the included examples do.
+
+That's all!
