@@ -1,3 +1,5 @@
+![deprecated](https://cloud.githubusercontent.com/assets/8536299/8458623/6978dea2-2018-11e5-9b9c-90dca23c9830.png)
+
 That will be not for update one of my program, the goal is more underground
 but i've decided to release this code finally and i hope you will learn something from this
 educational only, no patch data will alter a comercial product
